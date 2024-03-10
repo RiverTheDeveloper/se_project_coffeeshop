@@ -7,5 +7,95 @@
   margin: auto;
 }
 
-.content {
+.header {
+  padding: 30px 80px 40px;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(images\background_header.svg);
+  background-size: cover;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav_link {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav_logo {
+  position: relative;
+  left: -50px;
+  width: 105px;
+  height: 39px;
+}
+
+.header-title {
+  max-width: 729px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  margin: 183px 0 0;
+}
+
+.header-description {
+  max-width: 683px;
+  font-family: "noto serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 28px 0 0;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "noto serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header_footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.header_paragraph {
+  margin: 0;
+}
+
+.recipes {
+  padding: 100px 80px 215px;
+}
+
+.recipes_videos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.recipes_video-caption {
+  display: flex;
+  justify-content: space-between;
 }

@@ -110,7 +110,7 @@
   justify-content: center;
 }
 
-.recipes_video-caption {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
   font-family: "Inter";

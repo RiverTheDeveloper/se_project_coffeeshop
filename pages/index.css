@@ -1,6 +1,40 @@
+@import url(../vendor/normalize.css);
 @import url(../Blocks/page.css);
 @import url(../Blocks/header.css);
 @import url(../Blocks/nav.css);
 @import url(../Blocks/recipes.css);
 @import url(../Blocks/form.css);
 @import url(../Blocks/reservation.css);
+
+.menu {
+  padding: 100px 0 100px;
+}
+
+.menu__title {
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.menu_subtitle {
+  text-align: center;
+  margin: 0 0 100px;
+}
+
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  justify-content: center;
+}
+
+.card {
+}
+
+.card__title {
+}
+
+.card__list {
+}
+
+.list__item {
+}

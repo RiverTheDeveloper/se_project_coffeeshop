@@ -7,13 +7,7 @@
     <meta name="author" content="river madar" />
     <meta name="keywords" content="html, css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./Blocks/page.css" />
-    <link rel="stylesheet" href="./Blocks/header.css" />
-    <link rel="stylesheet" href="./Blocks/nav.css" />
-    <link rel="stylesheet" href="./Blocks/recipes.css" />
-    <link rel="stylesheet" href="./Blocks/form.css" />
-    <link rel="stylesheet" href="./Blocks/reservation.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+
     <title>The Coffee Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -159,7 +153,45 @@
             </label>
           </form>
         </section>
-        <section class="menu" id="menu"></section>
+        <section class="menu" id="menu">
+          <h3 class="menu__title">Menu</h3>
+          <p class="menu_subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <ul class="menu__cards">
+            <li class="card">
+              <h4 class="card__title">Filter</h4>
+              <ul class="card__list">
+                <li class="list__item">Regular (12 oz) $1</li>
+                <li class="list__item">Large (16 oz) $1.25</li>
+                <li class="list__item">XL (20 oz) $1.5</li>
+                <li class="list__item">Party-size (24 oz, decaf) $1.75</li>
+                <li class="list__item">Iced Coffee (16 oz) $1.25</li>
+              </ul>
+            </li>
+            <li class="card">
+              <h5 class="card__title">Espresso</h5>
+              <ul class="card__list">
+                <li class="list__item">Macchiato $2.25</li>
+                <li class="list__item">Cortado $2.5</li>
+                <li class="list__item">Mocha $3</li>
+                <li class="list__item">Sunrise in the Bay Area (decaf) $10</li>
+              </ul>
+            </li>
+            <li class="card">
+              <h6 class="card__title">Baked Goods</h6>
+              <ul class="card__list">
+                <li class="list__item">Almond Croissant $2</li>
+                <li class="list__item">Banana Bread $1.75</li>
+                <li class="list__item">Key Lime Pie $3</li>
+                <li class="list__item">Blue Velvet Cake $3.75</li>
+                <li class="list__item">Web Cookie $2</li>
+                <li class="list__item">Fresh Bug’uette $0.25</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
         <section class="about" id="contacts"></section>
       </main>
       <footer class="footer"></footer>

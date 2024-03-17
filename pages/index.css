@@ -13,11 +13,13 @@
 .menu__title {
   text-align: center;
   margin: 0 0 24px;
+  max-width: 780px;
 }
 
 .menu_subtitle {
   text-align: center;
   margin: 0 0 100px;
+  max-width: 780px;
 }
 
 .menu__cards {

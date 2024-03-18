@@ -11,7 +11,7 @@
 }
 
 .footer__contents_footer-socials {
-  margin-left: 80px;
+  text-align: center;
 }
 
 .footer__logo {
@@ -22,6 +22,7 @@
 
 .footer__list {
   color: #fff;
+  padding: 0;
 }
 
 .footer__list-item {
@@ -67,7 +68,7 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 0;
+  margin: 108px 0 60px 80px;
   justify-content: flex-start;
   display: flex;
   color: #fff;

@@ -54,7 +54,14 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulsate 1.3s ease-in-out infinite;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  background-color: #2f80ed;
+  position: absolute;
+  margin-top: -152px;
+  margin-left: -129px;
+  animation: Pulsate 1.3s ease-in-out infinite;
 }
 
 @keyframes Pulsate {

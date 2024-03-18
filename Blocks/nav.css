@@ -9,6 +9,7 @@
   margin: 0;
   gap: 20px;
   list-style-type: none;
+  font-weight: normal;
 }
 
 .nav__link {

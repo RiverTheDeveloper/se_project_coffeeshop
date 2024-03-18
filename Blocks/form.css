@@ -2,10 +2,6 @@
   max-width: 385px;
 }
 
-.reservation__form {
-  margin: 0 auto;
-}
-
 .form__fieldset {
   padding: 0;
   margin: 0;
@@ -15,7 +11,7 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: Inter;
+  font-family: "Inter" Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -23,7 +19,7 @@
   color: #000;
 }
 
-.form__label-type-checkbox {
+.form__label_type_checkbox {
   display: flex;
   justify-content: center;
 }
@@ -55,6 +51,8 @@
   line-height: 20px;
   height: 60px;
   border-radius: 4px;
+  color: #000;
+  border: none;
 }
 
 .form__button:hover {

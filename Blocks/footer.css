@@ -68,7 +68,7 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 60px 80px;
+  padding: 108px 0 60px 80px;
   justify-content: flex-start;
   display: flex;
   color: #fff;

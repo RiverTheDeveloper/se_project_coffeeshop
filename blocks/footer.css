@@ -6,7 +6,7 @@
 .footer__contents {
   display: flex;
   color: #fff;
-  padding: 60px 80px 60px 80px;
+  padding: 60px 80px 108px 80px;
   justify-content: space-between;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .footer__copyright {
-  padding: 0 0 108px 80px;
+  padding: 0 0 60px 80px;
   justify-content: flex-start;
   display: flex;
   color: #fff;
